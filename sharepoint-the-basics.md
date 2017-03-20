@@ -1,5 +1,4 @@
 # WHAT IS SHAREPOINT
----
 - SP Site to share and make environment within business to share with collegue.
 - Can connect multiple external like db to make everything centralized into the same portal.
 - Plateforme regrouped multiple applications.
@@ -7,30 +6,30 @@
 Installation example: On server - SP Designer or Workspace
 
 
-Sites => SP Make websites [For you, Team, Company, Open to the world, etc.]
+- Sites => SP Make websites [For you, Team, Company, Open to the world, etc.]
     - You are a current contributor and be able to edit
-Communites => Help you work with more people
+- Communites => Help you work with more people
     - Share board
     - Calendars
     - Documents
     - etc.
-Content => Place to put content and easy share (without needed to share by email, etc.)
+- Content => Place to put content and easy share (without needed to share by email, etc.)
     - Can remote edit
     - Also add functionnalities to edit on browser
-Search => Search content, but let's search for people
-Insights => Help you bring all your informations together and organize all contents
+- Search => Search content, but let's search for people
+- Insights => Help you bring all your informations together and organize all contents
     - Presenting way that make sens
     - Dashboard
     - Visiodiagram
-Composites => Can build on top of itself
+- Composites => Can build on top of itself
     - Can be extended and build easy workflows or form without code
     - Can code plugins
     - Controlled and secure
 
 
 # What Is a SharePoint Column Type
----
 [SharePoint 101: Columns and Column Types](https://en.share-gate.com/blog/sharepoint-101-choosing-column-types)
+
 Column types determine how data is stored and displayed in a list or library.
 
 Site Columns are really useful. They let you reuse a column you’ve configured over and again, and save you lots of time. Without Site Columns, you’d have to recreate your own custom column within each individual List or Library. And that would not be fun.
@@ -146,6 +145,7 @@ When you're in one of your List or Library, you'll see the famous Ribbon we talk
 
 ### Items Tab
 ![Items Tab](https://media.share-gate.com/app/archive/media/Sharegate/Images/2014/April/start-learn-sp/item_tab.png)
+
 There are different actions available like create a new item, edit an item and many others. It's not very complicated to understand the basic ones and we'll get to the more advanced settings later on, as well as Workflows
 
 ### List Tab
@@ -159,6 +159,7 @@ This is how you create a List column. Refer to the previous articles of this ser
 
 ### Library Ribbon
 ![Library Ribbon](https://media.share-gate.com/app/archive/media/Sharegate/Images/2014/April/start-learn-sp/library_ribbon.png)
+
 In the Library, we also have a ribbon at the top of the page with two new tabs: Files and Library. When you open the two different tabs, you'll see that the menu is basically the same between Files & Items and List & Library.
 
 #### Files Tab
@@ -173,4 +174,54 @@ Then, when you're done, you can check in and someone else can edit the document 
 Probably the biggest new feature in SharePoint 2016 is [hybrid search](https://en.share-gate.com/blog/sharepoint-hybrid-search). While hybrid search may have stolen the headlines, it’s not the only instance of new hybrid functionalities in SharePoint.
 
 The new hybrid SharePoint sites wizard lets you configure a server-to-server connection to join features of both environments. This offers users a simple way to keep track of their most frequently accessed sites, whether they are located on-premises or in the cloud.
+
+
+# Sharepoint Views
+[Learn How to Use and Create SharePoint Views](https://en.share-gate.com/blog/what-is-a-sharepoint-view-and-how-to-use-it)
+
+Views add another dimension to the organizing of your SharePoint list and library content so that you can find the right piece of data when you need it, without having to dig through hundreds of items.
+
+How so? With views, you can use filters and styles to show, in different ways, the information available in your lists and libraries. The truth is, there’s always a view activated in your list or library. The automatic standard view selected is normally "all items". 
+
+## Types of SharePoint Views
+There aren’t an enormous amount of view types, but you can create many views with each of the different types available. Below, we’ll take a look at the various types of views. These are the most common you’ll come into contact with, and will likely be the most useful.
+
+### Standard View
+As its name suggests, this is the view you see when first creating a list or library.  The view showcases your list information in an Excel-like table (you are unable to edit the list right away), with the columns you chose along with it, like First Name, Last Name, DOB, etc. And it is pretty straight forward. Pretty…standard, you might say.
+
+![Standard View](https://media.share-gate.com/app/archive/media/Sharegate/Images/2014/June/start-to-learn-sp-views/Standard-View.png)
+
+### Calendar View
+Essentially, this view is also a list (as almost everything in SharePoint is) masquerading as a calendar. It means that you can turn any list of information into a calendar, or at least any list that contains dates. You can decide which column you want to display on your calendar for a week, a month, a day and so on.
+
+![Calendar View](https://media.share-gate.com/app/archive/media/Sharegate/Images/2014/June/start-to-learn-sp-views/Calendar-view.png)
+
+### Datasheet view
+Similar to the standard view, the difference here is you can bulk edit all items in this Excel-type view directly on the page.
+
+![Datasheet view](https://media.share-gate.com/app/archive/media/Sharegate/Images/2014/June/start-to-learn-sp-views/Datasheet-view.png)
+
+### Gantt view
+This is another view that is centered around dates and time. This would be good for tracking deadlines for invoices or payments coming in, or for other projects that are subject to deadlines and/or progress reports.
+
+![Gantt view](https://media.share-gate.com/app/archive/media/Sharegate/Images/2014/June/start-to-learn-sp-views/Pert_example_gantt_chart.png)
+
+### Styles for the Standard view
+- Boxed
+- Newsletter
+- Shaded
+
+# The Pages
+
+## Wiki Pages
+
+## Publishing Pages
+The reason you might opt for a publishing page over a wiki is the level of control you get in your creation. You can build this page with particular fields that you want; an employee profile page, with job title, date joined, bio, and a picture. These fields become the template so when you work on the page you only have to fill these empty fields in. The thing is, these fields are actually columns, which means—yes, you guessed it—the metadata automatically sets for each new page, and this will make searching for the pages much easier in the long term.
+
+Also, with publishing pages, after editing you can just hit publish and boom there it goes. 
+
+## Web Part Pages
+A page which can display an aggregation of information from other sources. Web Part pages can display many types of data, including lists, other web pages, search results, or data retrieved from other servers.
+
+There is no edit button on the top of the page. There is an edit option—however it’s not very flexible. If you want the flexibility of accessing and creating information with speed, then you might want to consider the ever-popular Wiki page.
 
